@@ -9,11 +9,8 @@ from git_spider_process import *
 
 class TestSpiderProcess(unittest.TestCase):
 
-    def test_run_crawler_unicode(self):
-        result = run_crawler("git \u0394", " ", "wikis")
-        self.assertIsNotNone(result)
-
     def test_parse_input_pipeline(self):
+        """Test parsing input for git crawling"""
         test_in = 'test_input.json'
         with open(test_in) as input_json_file:
             input_json_str = input_json_file.read()
@@ -23,7 +20,13 @@ class TestSpiderProcess(unittest.TestCase):
             self.assertIsNotNone(proxies)
             self.assertIsNotNone(search_type)
 
+    def test_run_crawler_unicode(self):
+        """Test crawling, assert crawler returns a result"""
+        result = run_crawler("git \u0394", " ", "wikis")
+        self.assertIsNotNone(result)
+
     def test_output(self):
+        """Test outputting to a file"""
         test_out = 'test.json'
         write_result_to_json('{"test": 1}', test_out)
         self.assertTrue(os.path.exists(test_out))
