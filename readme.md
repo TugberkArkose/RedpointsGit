@@ -24,6 +24,7 @@ Through pipenv already configured in the directory:
 ```sh
 $ cd RedpointsGit
 $ pipenv shell
+$ pipenv install
 ```
 
 Or by installing Scrapy with Pip3.
