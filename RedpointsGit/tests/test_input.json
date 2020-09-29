@@ -1,0 +1,11 @@
+{
+  "keywords": [
+    "openstack",
+    "nova",
+    "css"
+  ],
+  "proxies": [
+    "194.126.37.94:8080"
+  ],
+  "type": "repositories"
+}
