@@ -1,9 +1,10 @@
 {
   "keywords": [
-    "css"
+    "css",
+    "javascript"
   ],
   "proxies": [
-    ""
+    "213.238.167.47:3128"
   ],
   "type": "repositories"
 }

@@ -83,6 +83,12 @@ def run_crawler(keywords, proxies, search_type):
     return result
 
 
+def verify_search_type(search_type):
+    search_type = str.lower(search_type)
+    if search_type != "repositories" and search_type != "issues" and search_type != "wikis":
+        raise Exception("Unsupported search type: {}".format(search_type))
+
+
 def main():
     """
     Entry point for the program
@@ -91,7 +97,7 @@ def main():
     input_json_data, output_json_file_path = get_args()
     keywords, proxies, search_type = parse_input_params(input_json_data)
 
-    logging.getLogger('scrapy').setLevel(logging.WARNING)
+    verify_search_type(search_type)
     result = run_crawler(keywords, proxies, search_type)
 
     write_result_to_json(result, output_json_file_path)

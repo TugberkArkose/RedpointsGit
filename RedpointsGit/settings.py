@@ -11,6 +11,8 @@ BOT_NAME = 'RedpointsGit'
 
 SPIDER_MODULES = ['RedpointsGit.spiders']
 NEWSPIDER_MODULE = 'RedpointsGit.spiders'
+
+# !!!!!!!! enable to debug
 LOG_ENABLED=False
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
