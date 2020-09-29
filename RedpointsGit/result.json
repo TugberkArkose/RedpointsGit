@@ -1,5 +1,23 @@
 [
     {
+        "url": "https://github.com/you-dont-need/You-Dont-Need-JavaScript",
+        "extra": {
+            "owner": "you-dont-need",
+            "language_stats": {
+                "CSS": 100.0
+            }
+        }
+    },
+    {
+        "url": "https://github.com/daniel-lundin/snabbt.js",
+        "extra": {
+            "owner": "daniel-lundin",
+            "language_stats": {
+                "JavaScript": 100.0
+            }
+        }
+    },
+    {
         "url": "https://github.com/hojberg/cssarrowplease",
         "extra": {
             "owner": "hojberg",
@@ -22,6 +40,17 @@
         }
     },
     {
+        "url": "https://github.com/samdutton/simpl",
+        "extra": {
+            "owner": "samdutton",
+            "language_stats": {
+                "HTML": 95.8,
+                "JavaScript": 4.0,
+                "CSS": 0.2
+            }
+        }
+    },
+    {
         "url": "https://github.com/twbs/ratchet",
         "extra": {
             "owner": "twbs",
@@ -29,28 +58,6 @@
                 "CSS": 63.3,
                 "JavaScript": 35.9,
                 "HTML": 0.8
-            }
-        }
-    },
-    {
-        "url": "https://github.com/twbs/bootstrap",
-        "extra": {
-            "owner": "twbs",
-            "language_stats": {
-                "JavaScript": 47.0,
-                "HTML": 19.5,
-                "SCSS": 18.4,
-                "CSS": 14.8,
-                "Other": 0.3
-            }
-        }
-    },
-    {
-        "url": "https://github.com/daniel-lundin/snabbt.js",
-        "extra": {
-            "owner": "daniel-lundin",
-            "language_stats": {
-                "JavaScript": 100.0
             }
         }
     },
@@ -83,26 +90,6 @@
         }
     },
     {
-        "url": "https://github.com/you-dont-need/You-Dont-Need-JavaScript",
-        "extra": {
-            "owner": "you-dont-need",
-            "language_stats": {
-                "CSS": 100.0
-            }
-        }
-    },
-    {
-        "url": "https://github.com/samdutton/simpl",
-        "extra": {
-            "owner": "samdutton",
-            "language_stats": {
-                "HTML": 95.8,
-                "JavaScript": 4.0,
-                "CSS": 0.2
-            }
-        }
-    },
-    {
         "url": "https://github.com/drublic/css-modal",
         "extra": {
             "owner": "drublic",
@@ -110,6 +97,19 @@
                 "JavaScript": 63.2,
                 "CSS": 20.9,
                 "HTML": 15.9
+            }
+        }
+    },
+    {
+        "url": "https://github.com/twbs/bootstrap",
+        "extra": {
+            "owner": "twbs",
+            "language_stats": {
+                "JavaScript": 47.0,
+                "HTML": 19.5,
+                "SCSS": 18.4,
+                "CSS": 14.8,
+                "Other": 0.3
             }
         }
     }

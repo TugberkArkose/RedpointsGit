@@ -13,7 +13,7 @@ SPIDER_MODULES = ['RedpointsGit.spiders']
 NEWSPIDER_MODULE = 'RedpointsGit.spiders'
 
 # !!!!!!!! enable to debug
-LOG_ENABLED=False
+LOG_ENABLED = False
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'RedpointsGit (+http://www.yourdomain.com)'
